@@ -8,11 +8,6 @@
   <PropertyGroup>
     <TargetFrameworks>netcoreapp1.1</TargetFrameworks>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Remove="------SessionRecords - Copy\**" />
-    <EmbeddedResource Remove="------SessionRecords - Copy\**" />
-    <None Remove="------SessionRecords - Copy\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Management.PowerBIDedicated\Microsoft.Azure.Management.PowerBIDedicated.csproj" />
